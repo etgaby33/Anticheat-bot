@@ -58,7 +58,4 @@ async def on_message_delete(message):
     if message.content in message_tracker:
         message_tracker[message.content].remove(message)
         if not message_tracker[message.content]:
-            del message_tracker[message.content]
-
-# Run the bot with your token
-bot.run('MTM1NDMzNTU3MDA0MTYzODk3Mg.GEjkze.sk73jOGu72mlC3TPYLXBxnBX5_LrjYExXpZy14')
+            del 
